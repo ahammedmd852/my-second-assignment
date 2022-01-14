@@ -1,0 +1,38 @@
+/* Google Font Poppins  */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 125px;
+    margin-right: 125px;
+
+}
+.button-fix{
+    margin-top: 25px;
+}
+.button{
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+.container{
+    display: flex;
+}
+.influencer{
+    width: 50%;
+    margin-top: 110px;
+}
+.influencer h1{
+    font-size: 2em;
+}
+.influencer img{
+    width: 440px;
+   height: 414px;
+}
+/* logos */
+.logos{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 25px;
+}
