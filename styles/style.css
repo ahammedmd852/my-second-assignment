@@ -36,3 +36,16 @@ body{
     grid-template-columns: repeat(7, 1fr);
     margin-top: 25px;
 }
+/* popular collection */
+.collection .products img{
+    height: 206px;
+    width: 250px;
+}
+.fa-star.filled{
+    color: goldenrod;
+    font-size: 10px;
+}
+.fa-star-half-alt{
+    color: goldenrod;
+    font-size: 10px;
+}
