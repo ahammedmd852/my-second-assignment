@@ -3,7 +3,6 @@ body{
     font-family: 'Poppins', sans-serif;
     margin-left: 125px;
     margin-right: 125px;
-
 }
 .button-fix{
     margin-top: 25px;
@@ -15,6 +14,9 @@ body{
     font-weight: 500;
     padding: 5px 10px;
     border-radius: 25px;
+}
+.fa-arrow-right{
+    padding-left: 8px;
 }
 .container{
     display: flex;
@@ -34,12 +36,40 @@ body{
 .logos{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    margin-top: 25px;
+    margin-top: 100px;
 }
 /* popular collection */
+.popular-collection{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.section-title{
+    text-align: center;
+}
 .collection .products img{
     height: 206px;
     width: 250px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+.collection{
+    background-color: aliceblue;
+    justify-content: center;
+    width: 280px;
+    height: 480px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.products{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.products-details{
+    margin-left: 15px;
 }
 .fa-star.filled{
     color: goldenrod;
@@ -48,4 +78,21 @@ body{
 .fa-star-half-alt{
     color: goldenrod;
     font-size: 10px;
+}
+.star{
+    display: flex;
+    align-items: center;   
+}
+.rating-points{
+    padding-left: 5px;
+    font-size: 12px;
+}
+.fix-link-button{
+    margin-top: 25px;
+}
+.link-button{
+    text-decoration: none;
+    color: crimson;
+    font-size: 700;
+    margin-left: 780px;
 }
