@@ -4,6 +4,7 @@ body{
     margin-left: 125px;
     margin-right: 125px;
 }
+/* header details */
 .button-fix{
     margin-top: 25px;
 }
@@ -28,9 +29,19 @@ body{
 .influencer h1{
     font-size: 2em;
 }
-.influencer img{
+.container img{
     width: 440px;
    height: 414px;
+}
+.transition{
+    width: 440px;
+    height: 414px;
+    transition: width 5s ease, height 5s ease, transform 5s ease;
+}
+.transition:hover{
+    width: 600px;
+    height: 600px;
+    transform: rotate(180deg);
 }
 /* logos */
 .logos{
@@ -96,19 +107,46 @@ body{
     font-size: 700;
     margin-left: 780px;
 }
+/* footer styles */
 .fix-footer{
     background-color: black;
     height: 225px;
     width: 100%;
     margin-bottom: 0px;
 }
-.footer-info{
+.footer-details{
     color: white;
     text-align: center;
     padding: 15px;
 }
 
-.footer-icon{
+.icons{
     color: white;
   text-align: center;
 }
+/* extra-part */
+.Photoshoot{
+    display: flex;
+    margin-top: 75px;
+}
+.Photoshoot img{
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+}
+.photo-camera{
+    width: 50%;
+    padding-left: 25px;
+}
+.click-button-fix{
+    margin-top: 20px;
+}
+.click-button{
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+/* media queries */
+/* mobile device */
